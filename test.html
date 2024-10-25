@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <nav>
+                <a class="headerlink" href="Escritura.html">Escritura en Matemática</a>
+                <a class="headerlink" href="Propiedades.html">Propiedades de las operaciones elementales</a>
+                <a class="headerlink" href="Unpocomas.html">Un poco más sobre operaciones</a>
+                <a class="headerlink" href="Algebra.html">Álgebra</a>
+            </nav>
+        </div>
+    </header>
+    <style>
+        header {
+    background-color: #f8f9fa; /* Color de fondo */
+    padding: 10px 20px; /* Espaciado alrededor */
+}
+
+.nav-container {
+    display: flex; /* Usar flexbox para la navegación */
+    justify-content: space-between; /* Espacio entre enlaces */
+    flex-wrap: wrap; /* Permitir que los elementos se ajusten */
+}
+
+nav {
+    display: flex; /* Flex para los enlaces */
+}
+
+.headerlink {
+    margin: 0 15px; /* Espaciado entre enlaces */
+    text-decoration: none; /* Sin subrayado */
+    color: #333; /* Color del texto */
+}
+
+.headerlink:hover {
+    color: #007bff; /* Color al pasar el ratón */
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 600px) {
+    .nav-container {
+        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+        align-items: center; /* Centrar los enlaces */
+    }
+
+    .headerlink {
+        margin: 10px 0; /* Espaciado vertical entre enlaces */
+    }
+}
+    </style>
+</body>
+</html>
